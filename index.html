@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>to madamG</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="paper heart"></div>
+  
+  <div class="paper image">
+    <p>I LIKE YOU</p>
+    <p>kbye</p>
+    
+  </div>
+
+  <!-- Other paper elements... -->
+
+  <div class="paper red">
+    <p class="p1">3 I've been thinking of ways to tell you na ano, ay wait, basta, hehehe. so for the past 2 days I took a crash course in coding para maka-code ani becausee, wala lang, feel ko lang... char hehe. I can't think of any other way to confess to you eh.
+
+    </p>
+    <p class="p2">I'm not good with words, and I did thought of making a song pero wala eh, blanko. sooo, here you go...
+
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">2. Hi bossingg!!!</p>
+    <p class="p1">sorryy kung ano, like murag ano ko for the past 2 days or so... basta ano. <span style="color: red !important;"></span></p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">1. To GELA<br>
+--i-drag ang paperr/pic--<br>
+    </p>
+  </div>
+  
+  <script>
+    // Check if the device is a mobile device
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // Dynamically load the appropriate script based on the device type
+    const script = document.createElement('script');
+    script.src = isMobile ? './mobile.js' : './script.js';
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
